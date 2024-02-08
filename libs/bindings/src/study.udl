@@ -1,0 +1,21 @@
+dictionary HelloRequest {
+    string world;
+};
+
+dictionary HelloResponse {
+    string message;
+};
+
+dictionary SumRequest {
+    i32 lhs;
+    i32 rhs;
+};
+
+dictionary SumResponse {
+    i32 result;
+};
+
+namespace study {
+    HelloResponse hello(HelloRequest request);
+    SumResponse sum(SumRequest request);
+};

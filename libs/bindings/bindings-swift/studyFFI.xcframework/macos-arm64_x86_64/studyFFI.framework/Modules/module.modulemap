@@ -1,0 +1,6 @@
+framework module studyFFI {
+  umbrella header "studyFFI-umbrella.h"
+
+  export *
+  module * { export * }
+}

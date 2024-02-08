@@ -1,0 +1,6 @@
+[bindings.swift]
+cdylib_name = "study_bindings"
+
+[bindings.kotlin]
+package_name = "study"
+cdylib_name = "study_bindings"

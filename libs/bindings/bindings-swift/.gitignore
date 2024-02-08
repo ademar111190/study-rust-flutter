@@ -1,0 +1,7 @@
+.swiftpm/
+.build/
+*.xcodeproj
+Sources/
+**/studyFFI.h
+**/studyFFI
+**/studyFFI.modulemap

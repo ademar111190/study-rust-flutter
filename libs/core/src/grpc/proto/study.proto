@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "ade.mar";
+option java_outer_classname = "StudyProto";
+
+package study;
+
+message HelloRequest {
+  string world = 1;
+}
+
+message HelloResponse {
+  string message = 1;
+}
+
+message SumRequest {
+  int32 lhs = 1;
+  int32 rhs = 2;
+}
+
+message SumResponse {
+  int32 result = 1;
+}

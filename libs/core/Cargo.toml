@@ -1,0 +1,24 @@
+[package]
+name = "study_core"
+edition = "2021"
+version.workspace = true
+
+[lib]
+name = "study_core"
+crate-type = ["staticlib", "cdylib", "lib"]
+
+[dependencies]
+anyhow = { version = "1.0.79", features = ["backtrace"] }
+flutter_rust_bridge = "1.82.6"
+lazy_static = "1.4.0"
+once_cell = "1.19.0"
+prost = "0.11"
+tonic = { version = "0.8", features = [
+    "tls",
+    "transport",
+    "tls-roots",
+    "tls-webpki-roots",
+] }
+
+[build-dependencies]
+tonic-build = "0.8"
