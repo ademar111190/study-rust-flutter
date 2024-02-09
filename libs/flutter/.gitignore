@@ -1,0 +1,6 @@
+.dart_tool/
+build/
+ios/bindings-swift/
+
+.flutter-version
+lib/bridge_generated.dart

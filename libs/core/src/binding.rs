@@ -10,14 +10,14 @@ static CORE: Lazy<Arc<Core>> = Lazy::new(|| {
     })
 });
 
-pub async fn hello(req: HelloRequest) -> Result<HelloResponse> {
+pub fn hello(req: HelloRequest) -> Result<HelloResponse> {
     let message = CORE.api.hello(req.world);
     Ok(HelloResponse {
         message,
     })
 }
 
-pub async fn sum(req: SumRequest) -> Result<SumResponse> {
+pub fn sum(req: SumRequest) -> Result<SumResponse> {
     let result = CORE.api.sum(req.lhs, req.rhs);
     Ok(SumResponse {
         result,

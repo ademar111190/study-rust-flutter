@@ -1,0 +1,10 @@
+.idea/
+/build
+/captures
+src/main/jniLibs
+src/main/kotlin/study
+
+*.iml
+.gradle
+/local.properties
+.DS_Store
