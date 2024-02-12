@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - study (1.0.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - study (from `.symlinks/plugins/study/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  study:
+    :path: ".symlinks/plugins/study/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  study: 58024358d402bd8ce29b83c40609e30d18e890e7
+
+PODFILE CHECKSUM: c96af939aa4bed7ae41ad6e1d2e156da5f5ee11a
+
+COCOAPODS: 1.15.0

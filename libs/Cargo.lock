@@ -1447,7 +1447,7 @@ checksum = "73473c0e59e6d5812c5dfe2a064a6444949f089e20eec9a2e5506596494e4623"
 
 [[package]]
 name = "study_bindings"
-version = "0.2.15"
+version = "1.0.0"
 dependencies = [
  "anyhow",
  "flutter_rust_bridge",
@@ -1463,7 +1463,7 @@ dependencies = [
 
 [[package]]
 name = "study_core"
-version = "0.2.15"
+version = "1.0.0"
 dependencies = [
  "anyhow",
  "flutter_rust_bridge",
